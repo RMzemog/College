@@ -1,0 +1,162 @@
+.container{
+	display:grid;
+	grid-template-columns:1.7fr 1fr;
+	margin-bottom:10px;
+	grid-gap:10px;
+}
+.container .one{
+	height:500px;
+	margin-left:40px;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.first{
+	color:white;
+	position:absolute;
+	top:600px;
+	left:70px;
+}
+.second{
+	color:white;
+	position:absolute;
+	top:600px;
+	right:70px;
+	font-size:28px;
+}
+.container .two{
+	height:500px;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin-right:40px;
+}
+.container2{
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap:10px;
+}
+.container2 .one{
+	height:470px;
+	background-size:100% 70%;
+	background-repeat:no-repeat;
+	margin-left:30px;
+}
+.buttomfirst{
+	color:black 4px;
+	position:absolute;
+	left:40px;
+    top:1020px;
+}
+.container2 .two{
+	height:400px;
+	background-size:100% 70%;
+	background-repeat:no-repeat;
+}
+.buttomsecond{
+	color:black 4px;
+	position:absolute;
+	left:400px;
+	top:1020px;
+}
+.container2 .three{
+	height:400px;
+	background-size:100% 70%;
+	background-repeat:no-repeat;
+}
+.buttomthird{
+	color:black 4px;
+	position:absolute;
+	left:800px;
+    top:1020px;
+}
+.container2 .four{
+	height:400px;
+	background-size:100% 70%;
+	background-repeat:no-repeat;
+	margin-right:30px;
+}
+.buttomfourth{
+	color:black 4px;
+	position:absolute;
+	left:1200px;
+    top:1020px;
+}
+
+.one{
+	height: 100px;
+}
+
+
+
+
+
+footer{
+	margin-top: 20px;
+	padding: 7% 15%;
+	text-align: center;
+	color:whitesmoke;
+	background-color: #4e4e50;
+  }
+  .fab{
+	cursor: pointer;
+	color:white;
+	background-color: #4e4e50;
+  }
+   .footer p{
+	   background-color: #4e4e50;
+   }
+
+  img{
+	  cursor: pointer;
+  }
+
+  .end{
+	   background-color: #4e4e50;
+	   text-align: center;
+	   color: whitesmoke;
+  }
+
+
+
+
+
+  *{
+	padding: 0;
+	margin: 0;
+}
+
+.MAINSSS{
+	padding: 20px 0px 5px 500px;
+	color:#659dbd ;
+	margin-top: 3px;
+	background-color: #4e4e50;
+	margin-bottom: 50px;
+}
+
+.trending-heading{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #4e4e50;
+  }
+
+	 .trending-heading button{
+	   width:300px;
+	   background-color: #4e4e50;
+	   border:none;
+	   font-size: 30px;
+	   cursor: pointer;
+	   color:white;
+	   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	   margin-left: 500px;
+	 }
+
+	 .trending-heading button:hover {
+	   background-color: rgb(44, 44, 44);
+	 }
+   .trend-heading{
+	 color:#659dbd;
+	 padding-top:30px;
+	 padding-bottom:30px;
+   font-size: 50px;
+   background-color: #4e4e50;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
